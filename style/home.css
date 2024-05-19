@@ -76,16 +76,16 @@ body {
 }
 
 /* Mobile */
-@media only screen and (max-width: 480px) {
+@media (max-width: 600px) {
   .container {
-      width: 100%;
-      margin:0;
+      grid-template-columns: 1fr; /* Stack items vertically on small screens */
   }
 }
 
 .container {
-  max-width: max-content;
-  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 img {
