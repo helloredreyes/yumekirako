@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+html {
+  .shippori-mincho-regular {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 200;
+    font-style: normal;
+  }      
+}
+
+:root {
+    --primary-color: #2D2D2D;
+    --secondary-color: #D8AB7C;
+    --accent1-color: #989428;
+    --accent2-color: #B68F62;
+  
+    --heading-font: 'Shippori Mincho', serif;
+    --paragraph-font: 'Inter', sans-serif;
+  
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #FF9100;
+    --nav-hover-background-color: #000000;
+}
+  
+nav ul {
+  display: flexbox;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+}
+  
+nav ul li {
+  display: inline;
+  margin-right: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20pt;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #FF9100;
+}
+
+body {
+  margin: 0;
+  background-color: #2D2D2D;
+  display: flow-root;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; 
+  background-position: center;
+}
+
+/* DEVICES RESOLUTION */
+
+.container {
+  width: 960px;
+  margin: 0;
+}
+
+/* Tablet View */
+@media only screen and (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .container {
+      width: 100%;
+      margin:0;
+  }
+}
+
+.container {
+  max-width: max-content;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+      font-size: 14px; 
+  }
+}
+
+
+/* HEADER */
+/* Header Image */
+
+header {
+  display: flexbox;
+  flex-direction: column;
+  max-width: max-content;
+}
+
+#header-image img {
+  display: flex;
+}
+
+
+#header-nav {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.yume-kirako {
+  padding: 50px;
+  align-content: center;
+  justify-content: center;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+/* MAIN ---------------------------- */
+
+/* MOTTO */
+
+#moto {
+  display: flex;
+  flex-direction: row;
+  max-width: max-content;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-image: url('https://images.unsplash.com/photo-1642091335543-96bb9725f24b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+h4 {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 100;
+  font-size: 30pt;
+  font-style: normal;
+}
+
+.themoto {
+  padding: 20px;
+  size: 30%;
+}
+
+.themoto img {
+  color: #000000;
+}
+
+.theartist {
+  size: 70%;
+  padding: 20px;
+}
+
+.theartist img {
+  box-shadow: 0 8px 16px #000000;
+}
+
+.social-button {
+  display: flex;
+  font-size: 20pt;
+  background-color: #000000;
+  border-radius: 1pt;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* ABSTRACT PAINTING SECTION */
+
+#abstract-painting {
+  display: flex;
+  max-width: max-content;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.abstractt p {
+  color: #ffffff;
+  line-height: 150%;
+  font-family: "Shippori Mincho", serif;
+  font-weight: 100;
+  font-size: 13pt;
+  font-style: normal;
+  padding: 20px;
+}
+
+.abstractt h3 {
+  padding: 20px;
+}
+
+.abstractimg {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.abstractimg img {
+  width: 40%;
+  box-shadow: 0 8px 16px #000000;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .abstractimg img {
+      width: 100%;
+  }
+}
+
+/* FREEHAND DRAWING */
+#freehand-drawing {
+  display: flex;
+  max-width: max-content;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.freehandt p {
+  color: #ffffff;
+  line-height: 150%;
+  font-family: "Shippori Mincho", serif;
+  font-weight: 100;
+  font-size: 13pt;
+  font-style: normal;
+  padding: 20px;
+}
+
+.freehandt h3 {
+  padding: 20px;
+}
+
+.freehandimg {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.freehandimg img {
+  width: 40%;
+  box-shadow: 0 8px 16px #000000;
+  padding: 10px;
+}
+
+.freehandtext {
+  padding: 30px 150px;
+}
+
+.freehandtext p{
+  color: #ffffff;
+  line-height: 150%;
+  font-family: "Shippori Mincho", serif;
+  font-weight: 100;
+  font-size: 15pt;
+  font-style: normal;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .abstractimg img {
+      width: 100%;
+  }
+}
+
+/* HEADER ----SECTION 3 UPCOMING EVENT---------------- */
+#upcoming {
+  background-image: url('https://images.unsplash.com/photo-1631477076114-9123f721b9dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+#upcoming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.eventinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventinfo p {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  line-height: 120%;
+  text-align: center;
+}
+
+.eventinfo img{
+  padding: 20px;
+  height: auto;
+  align-items: center;
+  width: 30%;
+  height: auto;
+}
+
+
+/* FOOTER ------------------------------------------------- */
+
+footer {
+  background: #AD3803;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+  width: 30%;
+}
+
+.social-icons {
+  padding: 20px;
+  max-width: max-content;
+  width: 70%;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.social-icons img {
+  width:25%;
+}
