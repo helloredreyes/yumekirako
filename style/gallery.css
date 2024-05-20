@@ -191,9 +191,9 @@ h1, h2, h3, h4 {
 
 #gallery-img {
   display: flex;
-  max-width: 100%;
   flex-direction: column;
-  padding: 40px;
+  max-width: 100%;
+  padding: 20px;
   row-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -203,10 +203,12 @@ h1, h2, h3, h4 {
 
 #gallery-img img{
   display: flex;
-  max-width: 50%;
   justify-content: center;
   align-items: center;
   align-content: center;
+  width: 40%;
+  box-shadow: 0 8px 16px #000000;
+  padding: 10px;
 }
 
 /* ABOUT */
