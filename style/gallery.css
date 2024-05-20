@@ -214,37 +214,29 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  column-gap: 50px;
-  row-gap: 20px;
+  row-gap: 10px;
   justify-content: center;
   align-items: center;
-  padding: 100px;
   box-sizing: border-box; /* Ensure padding doesn't cause overflow */
 }
 
 .yume-img img {
+  display: flex;
   max-width: 100%;
   height: auto;
 }
 
-.yume-txt {
-  flex: 1;
-}
-
 .yume-txt h4 {
-  font-size: 25pt;
-  text-shadow: 0 6px 6px #000000;
+  font-size: 15pt;
 }
 
 .yume-txt p {
   color: #ffffff;
-  line-height: 150%;
   font-family: "Shippori Mincho", serif;
   font-weight: 100;
-  font-size: 18pt;
+  font-size: 13pt;
   font-style: normal;
   text-align: justify;
-  text-shadow: 0 6px 6px #000000;
 }
 
 
