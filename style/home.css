@@ -44,6 +44,10 @@ nav ul li a {
   padding: 10px;
 }
 
+#navigation:hover a {
+  color: #FF9100;
+}
+
 nav ul li a:hover {
   text-decoration: none;
   color: #FF9100;
