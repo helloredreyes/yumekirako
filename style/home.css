@@ -235,12 +235,11 @@ h1, h2, h3, h4 {
 }
 
 #freehandtext {
-  padding: 20px 150px;
+  padding: 20px;
 }
 
 #freehandtext p{
   color: #ffffff;
-  line-height: 150%;
   font-family: "Shippori Mincho", serif;
   font-weight: 100;
   font-size: 13pt;
