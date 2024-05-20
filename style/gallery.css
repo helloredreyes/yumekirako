@@ -101,13 +101,14 @@ h1, h2, h3, h4 {
   align-items: center;
   padding: 20px;
   background-color: #ffffff;
-  background-size: cover;
-  background-position: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 #painting1 img{
   display: flex;
-  max-width: max-content;
+  max-width: 100%;
+  height: auto;
 }
 
 #painting1 h3 {
