@@ -99,10 +99,8 @@ h1, h2, h3, h4 {
   justify-content: center; 
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   background-color: #ffffff;
   box-sizing: border-box;
-  padding: 20px;
 }
 
 #painting1 img{
@@ -119,7 +117,7 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   color: #2b2b2b;
-
+  padding: 20px;
 }
   
 #painting1-txt {
@@ -127,6 +125,7 @@ h1, h2, h3, h4 {
   flex-direction: column;
   padding: 40px;
   background-color: #000000;
+  padding: 20px;
 }
 
 #painting1-txt h4 {
@@ -136,6 +135,7 @@ h1, h2, h3, h4 {
   font-size: 20pt;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 #painting1-txt p {
@@ -146,6 +146,7 @@ h1, h2, h3, h4 {
   font-weight: 100;
   font-size: 13pt;
   font-style: thin;
+  padding: 20px;
 }
 
 /* Painting 2 */
