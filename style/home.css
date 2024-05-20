@@ -111,11 +111,14 @@ h1, h2, h3, h4 {
 }
 
 #moto h4 {
-  font-family: "Shippori Mincho", serif;
-  font-weight: 100;
+  text-align: justify;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: bold;
   font-size: 20pt;
-  font-style: thin;
-  color: #000000;
+  align-items: center;
+  justify-content: center;
+  color: #0b0b0b;
+  padding: 20px;
 }
 
 .social-button {
