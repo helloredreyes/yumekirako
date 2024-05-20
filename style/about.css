@@ -199,42 +199,23 @@ h1, h2, h3, h4 {
 #contactinfo {
     display: flex;
     flex-direction: row;
-    column-gap: 150px;
     align-content: center;
     justify-content: center;
 }
 
-.colab h5 {
-    font-size: 20px;
+#contactinfo h5 {
+    font-size: 13px;
     text-align: left;
-    color: hsl(0, 0%, 100%);
-    font-family: Arial, sans-serif;
-    font-weight: 100;
-    line-height: 150%;
-}
-
-.colab p {
     color:#ffffff;
-    font-family: "Shippori Mincho", serif;
-    font-weight: 100;
-    font-size: 15pt;
-    text-justify: auto;
-}
-
-.colab1 h5 {
-    font-size: 20px;
-    text-align: left;
-    color: hsl(0, 0%, 100%);
     font-family: Arial, sans-serif;
     font-weight: 100;
-    line-height: 150%;
 }
 
-/* LINES All same setting*/
-#line {
-    padding: 10px;
+#contactinfo ul li a:hover {
+  font-size: 13pt;
+  text-decoration: none;
+  color: #FF9100;
 }
-
 
 /* FOOTER ------------------------------------------------- */
 
