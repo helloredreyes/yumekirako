@@ -149,7 +149,7 @@ h1, h2, h3, h4 {
 #theartist img{
   display: flex;
   max-width: max-content;
-  width: 40%;
+  width: 100%;
 }
 /* ABSTRACT PAINTING SECTION */
 
