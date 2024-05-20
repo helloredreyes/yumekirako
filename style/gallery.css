@@ -220,6 +220,7 @@ h1, h2, h3, h4 {
   justify-content: center;
   align-items: center;
   box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+  padding: 20px;
 }
 
 .yume-img img {
