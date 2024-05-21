@@ -194,10 +194,11 @@ h1, h2, h3, h4 {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding: 20px;
 }
 
 #contactinfo h5 {
-    font-size: 13px;
+    font-size: 15px;
     text-align: left;
     color:#ffffff;
     font-family: Arial, sans-serif;
