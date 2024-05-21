@@ -204,10 +204,10 @@ h1, h2, h3, h4 {
     font-weight: 100;
 }
 
-#contactinfo ul li a:hover {
+#contactinfo a{
   font-size: 13pt;
   text-decoration: none;
-  color: #FF9100;
+  color: #ffffff;
 }
 
 /* FOOTER ------------------------------------------------- */
