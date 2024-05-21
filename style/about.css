@@ -202,7 +202,13 @@ h1, h2, h3, h4 {
     text-align: left;
     color:#ffffff;
     font-family: Arial, sans-serif;
-    font-weight: 100;
+}
+
+#contactinfo p {
+  font-size: 13px;
+  text-align: left;
+  color:#ffffff;
+  font-family: Arial, sans-serif;
 }
 
 #contactinfo a{
