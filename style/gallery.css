@@ -260,7 +260,6 @@ footer {
   background: #AD3803;
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
   row-gap: 20px;
   padding: 20px;
@@ -270,23 +269,28 @@ footer a {
   color: white;
   font-size: 20px;
   width: 100%;
+  align-items: center;
 }
 
 footer p {
   color: #ffffff;
+  align-items: center;
 }
 .social-icons {
   padding: 20px;
   max-width: max-content;
   width: 100%;
+  align-items: center;
 }
 
 .social-icons a {
   color: white;
   font-size: 20px;
   text-decoration: none;
+  align-items: center;
 }
 
 .social-icons img {
   width:20%;
+  align-items: center;
 }
