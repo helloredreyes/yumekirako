@@ -72,8 +72,9 @@ h1, a {
 
 /* h3 to h5 -slide from LEFT */
 h3, h4, h5 {
-  opacity: 0; 
-  animation: slideInFromLeft 3s ease forwards;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease, transform 1s ease;
 }
 
 p {
@@ -378,6 +379,7 @@ footer p {
     transform: translateX(0);
   }
 }
+
 /* SLIDE FROM RIGHT p */
 @keyframes slideInFromRight {
   0% {
