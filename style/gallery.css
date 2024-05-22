@@ -64,10 +64,7 @@ body {
 /* ANIMATION FOR ALL */
 /* h1, a */
 
-h1, a, h3, h4, h5{
-  opacity: 0;
-  animation: fadeIn 3s forwards;
-}
+
 
 p {
   opacity: 0; 
@@ -314,15 +311,6 @@ footer p {
 }
 
 /* ANIMATION FOR ALL */
-/* FADE-IN  h1 + a*/
-@keyframes fadeIn {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
-}
 
 /* SLIDE FROM RIGHT p */
 @keyframes slideInFromRight {
