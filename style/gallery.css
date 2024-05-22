@@ -61,6 +61,24 @@ body {
   background-position: center;
 }
 
+/* ANIMATION FOR ALL */
+/* h1, a */
+
+h1, a, h3, h4, h5{
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+}
+
+p {
+  opacity: 0; 
+  animation: slideInFromRight 3s ease forwards;
+}
+
+img {
+  opacity: 0; 
+  animation: slideInFromTop 3s ease forwards;
+}
+
 /* HEADER */
 /* Header Image */
 
@@ -293,4 +311,39 @@ footer p {
 .social-icons img {
   width:20%;
   align-items: center;
+}
+
+/* ANIMATION FOR ALL */
+/* FADE-IN  h1 + a*/
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* SLIDE FROM RIGHT p */
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* SLIDE FROM BOTTOM img*/
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
