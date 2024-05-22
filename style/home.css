@@ -65,7 +65,7 @@ body {
 /* h3 to h5 -slide from LEFT */
 h3, h4, h5 {
   opacity: 0; 
-animation: slideInFromLeft 3s ease backwards;
+  animation: slideInFromLeft 3s ease backwards;
 }
 
 p {
@@ -353,7 +353,7 @@ footer p {
 @keyframes slideInFromLeft {
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
   100% {
     opacity: 1;
