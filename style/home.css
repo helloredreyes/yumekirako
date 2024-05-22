@@ -83,7 +83,7 @@ p {
 
 img {
   opacity: 0; 
-  animation: slideInFromBottom 3s ease forwards;
+  animation: slideInFromTop 3s ease forwards;
 }
 
 /* HEADER */
@@ -391,10 +391,10 @@ footer p {
 }
 
 /* SLIDE FROM BOTTOM */
-@keyframes slideInFromBottom {
+@keyframes slideInFromTop {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
   100% {
     opacity: 1;
