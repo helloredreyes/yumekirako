@@ -101,35 +101,35 @@
         </nav>
         <p>Created By<br><br><a href="https://www.youtube.com/@silentlymineA">©2024 Silently Mine</a></p>
     </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Callback function to execute when elements are in view
-            const callback = (entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-                        observer.unobserve(entry.target); // Stop observing once the animation is applied
-                    }
-                });
-            };
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+// Callback function to execute when elements are in view
+const callback = (entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+            observer.unobserve(entry.target); // Stop observing once the animation is applied
+        }
+    });
+};
 
-            // Options for the observer
-            const options = {
-                root: null, // Use the viewport as the root
-                threshold: 0.1 // Trigger callback when 10% of the element is in view
-            };
+// Options for the observer
+const options = {
+    root: null, // Use the viewport as the root
+    threshold: 0.1 // Trigger callback when 10% of the element is in view
+};
 
-            // Create the observer
-            const observer = new IntersectionObserver(callback, options);
+// Create the observer
+const observer = new IntersectionObserver(callback, options);
 
-            // Target elements to be animated
-            const targets = document.querySelectorAll('h3, h4, h5, img, video');
+// Target elements to be animated
+const targets = document.querySelectorAll('h3, h4, h5, img, video');
 
-            // Start observing each target element
-            targets.forEach(target => {
-                observer.observe(target);
-            });
-        });
-    </script>
+// Start observing each target element
+targets.forEach(target => {
+    observer.observe(target);
+});
+});
+</script>
 </body>
 </html>
