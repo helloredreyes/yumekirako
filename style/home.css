@@ -73,7 +73,7 @@ h1, a {
 /* h3 to h5 -slide from LEFT */
 h3, h4, h5 {
   opacity: 0; 
-  animation: slideInFromLeft 3s ease backwards;
+  animation: slideInFromLeft 3s ease forwards;
 }
 
 p {
@@ -357,7 +357,7 @@ footer p {
 }
 
 /* ANIMATION FOR ALL */
-/* FADE-IN */
+/* FADE-IN  h1 + a*/
 @keyframes fadeIn {
   0% {
       opacity: 0;
@@ -367,7 +367,7 @@ footer p {
   }
 }
 
-/* SLIDE FROM LEFT */
+/* SLIDE FROM LEFT h3 to h5  */
 @keyframes slideInFromLeft {
   0% {
     opacity: 0;
@@ -378,7 +378,7 @@ footer p {
     transform: translateX(0);
   }
 }
-/* SLIDE FROM RIGHT */
+/* SLIDE FROM RIGHT p */
 @keyframes slideInFromRight {
   0% {
     opacity: 0;
@@ -390,7 +390,7 @@ footer p {
   }
 }
 
-/* SLIDE FROM BOTTOM */
+/* SLIDE FROM BOTTOM img*/
 @keyframes slideInFromTop {
   0% {
     opacity: 0;
