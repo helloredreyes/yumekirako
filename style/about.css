@@ -61,6 +61,17 @@ body {
   background-position: center;
 }
 
+/* ANIMATION SETTINGS */
+p {
+  opacity: 0; 
+  animation: slideInFromRight 3s ease forwards;
+}
+
+img {
+  opacity: 0; 
+  animation: slideInFromTop 3s ease forwards;
+}
+
 /* HEADER */
 /* Header Image */
 
@@ -245,4 +256,39 @@ footer p {
 
 .social-icons img {
   width:20%;
+}
+
+/* ANIMATIONS */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+/* SLIDE FROM RIGHT p */
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* SLIDE FROM BOTTOM img*/
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
