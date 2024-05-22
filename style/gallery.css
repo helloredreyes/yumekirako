@@ -277,6 +277,7 @@ footer {
   background: #AD3803;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   row-gap: 20px;
   padding: 20px;
@@ -291,14 +292,13 @@ footer a {
 footer p {
   color: #ffffff;
 }
-
 .social-icons {
   padding: 20px;
+  max-width: max-content;
   width: 100%;
 }
 
 .social-icons a {
-  width: 100%;
   color: white;
   font-size: 20px;
   text-decoration: none;
