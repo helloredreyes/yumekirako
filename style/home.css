@@ -61,7 +61,22 @@ body {
   background-position: center;
 }
 
-z
+/* ANIMATION FOR ALL */
+/* h3 to h5 -slide from LEFT */
+h3, h4, h5 {
+  opacity: 0; 
+animation: slideInFromLeft 3s ease backwards;
+}
+
+p {
+  opacity: 0; 
+  animation: slideInFromRight 3s ease forwards;
+}
+
+img {
+  opacity: 0; 
+  animation: slideInFromBottom 3s ease forwards;
+}
 
 /* HEADER */
 /* Header Image */
@@ -331,4 +346,40 @@ footer p {
 
 .social-icons img {
   width:20%;
+}
+
+/* ANIMATION FOR ALL */
+/* SLIDE FROM LEFT */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* SLIDE FROM RIGHT */
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* SLIDE FROM BOTTOM */
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
