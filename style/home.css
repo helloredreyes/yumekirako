@@ -62,9 +62,9 @@ body {
 }
 
 /* ANIMATION FOR ALL */
-/* h1, a */
+/*  FADE-IN  h2-h5 + a + img */
 
-h1, a, h3, h4, h5{
+h2, a, h3, h4, h5{
   opacity: 0;
   animation: fadeIn 3s forwards;
 }
@@ -350,7 +350,7 @@ footer p {
 }
 
 /* ANIMATION FOR ALL */
-/* FADE-IN  h1 + a*/
+/* FADE-IN  h2-h5 + a + img*/
 @keyframes fadeIn {
   0% {
       opacity: 0;
